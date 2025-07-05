@@ -10,6 +10,16 @@ Dự án này xây dựng một agent sử dụng thuật toán Proximal Policy 
 
 # ⚙️ Hướng dẫn chạy
 1. Cài đặt thư viện
+```python
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install scikit-learn
+pip install gym==0.26.2
+pip install torch>=1.13.0
+pip install stable-baselines3==1.7.0
+pip install tensorboard
+```
 2. Tiền xử lý dữ liệu
 ```python
 python download_preprocess.py
