@@ -8,5 +8,11 @@ Dự án này xây dựng một agent sử dụng thuật toán Proximal Policy 
 
 - Hàm reward được thiết kế kết hợp phần thưởng ngắn hạn, dài hạn và hình phạt khi không giao dịch hoặc lỗ kéo dài.
 
-⚙️ Hướng dẫn chạy
-<i>1. Cài đặt thư viện</i>
+⚙️ Hướng dẫn chạy<br>
+<i>1. Cài đặt thư viện</i><br>
+<i>2. Tiền xử lý dữ liệu</i><br>
+```python
+python preprocess_download.py
+python split_train_test.py
+```
+
