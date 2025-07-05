@@ -8,11 +8,24 @@ Dự án này xây dựng một agent sử dụng thuật toán Proximal Policy 
 
 - Hàm reward được thiết kế kết hợp phần thưởng ngắn hạn, dài hạn và hình phạt khi không giao dịch hoặc lỗ kéo dài.
 
-⚙️ Hướng dẫn chạy<br>
+# ⚙️ Hướng dẫn chạy
 1. Cài đặt thư viện
 2. Tiền xử lý dữ liệu
 ```python
-python preprocess_download.py
+python download_preprocess.py
 python split_train_test.py
 ```
+3. Huấn luyện mô hình
+```python
+python train_agent.py
+```
+4. Đánh giá mô hình
+```python
+python evaluate_agent.py
+```
+# 📊 Kết quả
+Agent được huấn luyện trên tập train 8 năm, đánh giá trên 2 năm.
+
+Tài sản cuối cùng, lợi nhuận và so sánh với chiến lược Buy & Hold được ghi nhận trong evaluate_agent.py.
+
 
